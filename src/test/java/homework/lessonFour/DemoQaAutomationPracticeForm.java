@@ -62,20 +62,22 @@ public class DemoQaAutomationPracticeForm {
 
         $(".modal-dialog").should(appear);
 
-        $(".table-responsive").shouldHave(text(nameFirst));
-        $(".table-responsive").shouldHave(text(nameLast));
-        $(".table-responsive").shouldHave(text(email));
-        $(".table-responsive").shouldHave(text(gender));
-        $(".table-responsive").shouldHave(text(phone));
-        $(".table-responsive").shouldHave(text(birthMonth));
-        $(".table-responsive").shouldHave(text(birthYear));
-        $(".table-responsive").shouldHave(text(birthDay));
-        $(".table-responsive").shouldHave(text(subjects));
-        $(".table-responsive").shouldHave(text(hobbies));
-        $(".table-responsive").shouldHave(text(pictureName));
-        $(".table-responsive").shouldHave(text(address));
-        $(".table-responsive").shouldHave(text(state));
-        $(".table-responsive").shouldHave(text(city));
+        $(".table-responsive").shouldHave(
+            text(nameFirst),
+            text(nameLast),
+            text(email),
+            text(gender),
+            text(phone),
+            text(birthMonth),
+            text(birthYear),
+            text(birthDay),
+            text(subjects),
+            text(hobbies),
+            text(pictureName),
+            text(address),
+            text(state),
+            text(city)
+        );
 
 
     }
