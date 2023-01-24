@@ -19,21 +19,21 @@ public class DemoQaAutomationPracticeForm {
     @Test
     void fillFormTest() {
 
-        String nameFirst = "Alina";
-        String nameLast = "Krivosheeva";
-        String email = "alina@test.ru";
-        String gender = "Female";
-        String phone = "9202948284";
-        String birthMonth = "January";
-        String birthYear = "1999";
-        String birthDay = "25";
-        String subjects = "Commerce";
-        String hobbies = "Reading";
-        String picturePath = "images/test.png";
-        String pictureName = "test.png";
-        String address = "Kaluzhskaja obl, g Borovsk, ul Lenina, d 18, kv 92";
-        String state = "Haryana";
-        String city = "Karnal";
+        String nameFirst = "Alina",
+               nameLast = "Krivosheeva",
+               email = "alina@test.ru",
+               gender = "Female",
+               phone = "9202948284",
+               birthMonth = "January",
+               birthYear = "1999",
+               birthDay = "25",
+               subjects = "Commerce",
+               hobbies = "Reading",
+               picturePath = "images/test.png",
+               pictureName = "test.png",
+               address = "Kaluzhskaja obl, g Borovsk, ul Lenina, d 18, kv 92",
+               state = "Haryana",
+               city = "Karnal";
 
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
